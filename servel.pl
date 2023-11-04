@@ -59,7 +59,7 @@ while (not $time_to_die) {
         }
         log_message(sprintf "Accepted connection from %s", $client->peerhost());
         my $pid = fork;
-        my $base = S1NVT1NUOTl7RjFuYWx5X1kwdV9nT3RfTTN9;
+        my $base = QVJlYWxseVVzZWxlc3NLZXk7;
         croak "fork: $OS_ERROR" unless defined $pid;
         if ($pid == 0) {
             handle_connection($client);
